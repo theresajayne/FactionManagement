@@ -7,6 +7,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 /**
  * Base Mod Class
@@ -34,6 +35,22 @@ public class FactionManagement
     public static Block decaExtension;
     public static Item claimDetector;
 
+    /**
+     * ItemStacks for Recipes are here
+     */
+    public static ItemStack claimBlockStack;
+    public static ItemStack extensionBlockStack;
+    public static ItemStack doubleExtensionStack;
+    public static ItemStack tripleExtensionStack;
+    public static ItemStack quadExtensionStack;
+    public static ItemStack quinExtensionStack;
+    public static ItemStack sexExtensionStack;
+    public static ItemStack septExtensionStack;
+    public static ItemStack octExtensionStack;
+    public static ItemStack nonExtensionStack;
+    public static ItemStack decaExtensionStack;
+
+
     @Mod.Instance(value = "factionmanagement")
     public static FactionManagement instance;
 
@@ -50,6 +67,7 @@ public class FactionManagement
     public void load(FMLInitializationEvent event)
     {
         RegisterBlocks registerBlocks = new RegisterBlocks();
+        RegisterRecipes registerRecipes = new RegisterRecipes();
         proxy.registerRenderers();
 
     }
