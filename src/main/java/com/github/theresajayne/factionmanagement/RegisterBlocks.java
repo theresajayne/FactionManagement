@@ -18,16 +18,16 @@ public class RegisterBlocks {
     public RegisterBlocks()
     {
         FactionManagement.claimBlock = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("claimBlock").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:claimBlock");
-        FactionManagement.extensionBlock = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("extensionBlock").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.doubleExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("doubleExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.tripleExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("tripleExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.quadExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("quadExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.quinExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("quinExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.sexExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("sexExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.septExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("septExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.octExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("octExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.nonExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("nonExtension").setCreativeTab(CreativeTabs.tabMisc);
-        FactionManagement.decaExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("decaExtension").setCreativeTab(CreativeTabs.tabMisc);
+        FactionManagement.extensionBlock = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("extensionBlock").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:extensionBlock");
+        FactionManagement.doubleExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("doubleExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:doubleExtension");
+        FactionManagement.tripleExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("tripleExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:tripleExtension");
+        FactionManagement.quadExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("quadExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:quadExtension");
+        FactionManagement.quinExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("quinExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:quinExtension");
+        FactionManagement.sexExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("sexExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:sexExtension");
+        FactionManagement.septExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("septExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:septExtension");
+        FactionManagement.octExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("octExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:octExtension");
+        FactionManagement.nonExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("nonExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:nonExtension");
+        FactionManagement.decaExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("decaExtension").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:decaExtension");
 
         GameRegistry.registerBlock(FactionManagement.claimBlock,"claimBlock");
         GameRegistry.registerBlock(FactionManagement.extensionBlock,"extensionBlock");
