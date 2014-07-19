@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "FactionManagement",
+  "name": "Faction Management",
+  "description": "Faction Management for Minecraft",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TheresaJayne"],
+  "credits": "Everyone who helped",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

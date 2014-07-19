@@ -1,0 +1,11 @@
+tile.claimBlock.name=Faction Claim Block
+tile.extensionBlock.name=Faction Extension Block
+tile.doubleExtension.name=Double Compressed Extension Block
+tile.tripleExtension.name=Triple Compressed Extension Block
+tile.quadExtension.name=Quadruple Compressed Extension Block
+tile.quinExtension.name=Quintuple Compressed Extension Block
+tile.sexExtension.name=Sextuple Compressed Extension Block
+tile.septExtension.name=Septuple Compressed Extension Block
+tile.octExtension.name=Octuple Compressed Extension Block
+tile.nonExtension.name=Nonuple Compressed Extension Block
+tile.decaExtension.name=Dectuple Compressed Extension Block
