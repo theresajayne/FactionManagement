@@ -17,7 +17,7 @@ public class RegisterBlocks {
      */
     public RegisterBlocks()
     {
-        FactionManagement.claimBlock = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("claimBlock").setCreativeTab(CreativeTabs.tabMisc);
+        FactionManagement.claimBlock = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("claimBlock").setCreativeTab(CreativeTabs.tabMisc).setBlockTextureName("factionmanagement:claimBlock");
         FactionManagement.extensionBlock = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("extensionBlock").setCreativeTab(CreativeTabs.tabMisc);
         FactionManagement.doubleExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("doubleExtension").setCreativeTab(CreativeTabs.tabMisc);
         FactionManagement.tripleExtension = new GenericBlock(Material.rock).setHardness(50.0F).setStepSound(Block.soundTypeMetal).setBlockName("tripleExtension").setCreativeTab(CreativeTabs.tabMisc);
