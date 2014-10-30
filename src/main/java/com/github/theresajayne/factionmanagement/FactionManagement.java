@@ -8,6 +8,8 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraftforge.common.MinecraftForge;
 
 /**
  * Base Mod Class
@@ -49,6 +51,13 @@ public class FactionManagement
     public static ItemStack octExtensionStack;
     public static ItemStack nonExtensionStack;
     public static ItemStack decaExtensionStack;
+    public static ItemStack detectorStack;
+
+    /**
+     * Entity Tile Definitions
+     */
+    public static TileEntity claimBlockEntity;
+    public static TileEntity extensionEntity;
 
 
     @Mod.Instance(value = "factionmanagement")
@@ -60,13 +69,14 @@ public class FactionManagement
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        MinecraftForge.EVENT_BUS.register(new InventoryDetectionTickHandler());
     }
 
     @Mod.EventHandler
     public void load(FMLInitializationEvent event)
     {
         RegisterBlocks registerBlocks = new RegisterBlocks();
+        RegisterEntities registerEntities = new RegisterEntities();
         RegisterRecipes registerRecipes = new RegisterRecipes();
         proxy.registerRenderers();
 

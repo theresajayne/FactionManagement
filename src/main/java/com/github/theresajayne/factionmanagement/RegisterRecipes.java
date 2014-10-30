@@ -6,6 +6,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 /**
+ *
  * Created by Theresa on 19/07/14.
  */
 public class RegisterRecipes {
@@ -38,14 +39,14 @@ public class RegisterRecipes {
         GameRegistry.addRecipe(FactionManagement.nonExtensionStack,"EEE","EEE","EEE",'E',FactionManagement.octExtensionStack);
         GameRegistry.addRecipe(FactionManagement.decaExtensionStack,"EEE","EEE","EEE",'E',FactionManagement.nonExtensionStack);
         //De compress recipes
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.nonExtension,9),FactionManagement.decaExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.octExtension,9),FactionManagement.nonExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.septExtension,9),FactionManagement.octExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.sexExtension,9),FactionManagement.septExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.quinExtension,9),FactionManagement.sexExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.quadExtension,9),FactionManagement.quinExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.tripleExtension,9),FactionManagement.quadExtensionStack);
-        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.doubleExtension,9),FactionManagement.tripleExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.nonExtension, 9), FactionManagement.decaExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.octExtension, 9), FactionManagement.nonExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.septExtension, 9), FactionManagement.octExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.sexExtension, 9), FactionManagement.septExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.quinExtension, 9), FactionManagement.sexExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.quadExtension, 9), FactionManagement.quinExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.tripleExtension, 9), FactionManagement.quadExtensionStack);
+        GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.doubleExtension, 9), FactionManagement.tripleExtensionStack);
         GameRegistry.addShapelessRecipe(new ItemStack(FactionManagement.extensionBlock, 9), FactionManagement.doubleExtensionStack);
 
     }
