@@ -69,7 +69,7 @@ public class FactionManagement
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        MinecraftForge.EVENT_BUS.register(new InventoryDetectionTickHandler());
+       // MinecraftForge.EVENT_BUS.register(new InventoryDetectionTickHandler());
     }
 
     @Mod.EventHandler
